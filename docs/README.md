@@ -107,7 +107,7 @@ Note: if you plan to use box86 with Wine on Raspberry Pi 3 or earlier, those mod
 Notes about Vulkan
 ----
 
-Box86 already wrap vulikan. If your system has a 32bits vulkan driver, box86 will use it when needed. Note that vulkan wrapping has not been tested much, due to the limited vulkan support on the hardware I currently own. Profile 1.0 and 1.1, whith some extension, should be OK. 1.2 is not really wrapped. I know some demos work on Pi4 (Sascha Willems demos build for x86 work the same as if build on armhf directly). Note that the Vulkan driver of the Pi4 DOES NOT support dxvk for now (wine DirectX->Vulkan wrapper). It's not a box86 issue, it's missing extensions (hardxware support) and a few other things that make dxvk not working on pi4. On Panfrost side, PanVK is a bit young and I haven't tested dxvk with it yet.
+Box86 already wraps vulkan. If your system has a 32bit vulkan driver, box86 will use it when needed. Note that vulkan wrapping has not been tested much, due to the limited vulkan support on the hardware I currently own. Profile 1.0 and 1.1, whith some extension, should be OK. 1.2 is not really wrapped. I know some demos work on Pi4 (Sascha Willems demos build for x86 work the same as if build on armhf directly). Note that the Vulkan driver of the Pi4 DOES NOT support dxvk for now (wine DirectX->Vulkan wrapper). It's not a box86 issue, it's missing extensions (hardxware support) and a few other things that make dxvk not working on pi4. On Panfrost side, PanVK is a bit young and I haven't tested dxvk with it yet.
 
 ----
 Final word
